@@ -9,10 +9,11 @@ export class ApiService {
   //companyUrl = "http://localhost:8000/company";
   //stockUrl = "http://localhost:8000/stock";
 
-  //not used urls
+  //Azure container insrance url not used anymore.
   //companyUrl = "https://company-230221173746.azurewebsites.net/api/v1.0/market/company/";
   //stockUrl = "https://stock-230221232356.azurewebsites.net/api/v1.0/market/stock";
 
+  
   //AZURE hosted URLs
   companyUrl = "https://companycontainerapp.wittyforest-7bb752ce.eastus.azurecontainerapps.io/api/v1.0/market/company";  
   stockUrl = "https://stockcontainerapp.wittyforest-7bb752ce.eastus.azurecontainerapps.io/api/v1.0/market/stock";
